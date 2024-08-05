@@ -1,0 +1,49 @@
+.form-fields.search {
+    position: relative;
+    padding: 17px 0px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .form-fields.search.d1 {
+    border: 1px solid #DADADA;
+  }
+
+  .form-fields.search.d1 input {
+    border: 0px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  .form-fields.search.d1 input:focus-visible {
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  .form-fields.search.d1 img {
+    float: right;
+    margin-right: 15px;
+    top: 2px;
+  }
+
+  .form-fields.search.d2 {
+    background-color: #015130;
+    border: 1px;
+    text-align: center;
+  }
+
+  .form-fields.search.d2 label {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .form-fields.search.d2 label img {
+    position: absolute;
+    left: -30px;
+    top: -1px;
+  }
+
+  /*# sourceMappingURL=forms.css.map */

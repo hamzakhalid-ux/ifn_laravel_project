@@ -1,0 +1,70 @@
+.cards.d-1 .inner {
+    overflow: hidden;
+    clear: both;
+  }
+
+  .cards.d-1 .bottom {
+    overflow: hidden;
+    margin-top: 0px;
+  }
+
+  .cards.d-1 .bottom .right-aside .slide-arrrows {
+    width: 20%;
+    display: inline-block;
+  }
+
+  .cards.d-1 .bottom .right-aside .button.d-1 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .cards.d-2 .inner {
+    overflow: hidden;
+    clear: both;
+  }
+
+  .cards.d-2 .bottom {
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+  }
+
+  .cards.d-2 .bottom .slide-arrrows {
+    width: 20%;
+    display: inline-block;
+  }
+
+  .cards.d-2 .bottom .button.d-1 {
+    width: 80%;
+    text-align: center;
+  }
+  .cards.d-3 {
+    background-color: #FDEAEA;
+    margin: 0px 10px 20px 5px;
+    border-radius: 0px 10px;
+    border: 1px solid #800000;
+  }
+  .cards.d-3 .inner {
+    padding: 15px;
+  }
+  .cards.d-3 .inner h1 {
+    color: #800000 !important;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .cards.d-3 .inner h6 {
+    color: #2E2E2E !important;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  .cards.d-3 .inner p {
+    color: #800000 !important;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  /*# sourceMappingURL=cards.css.map */

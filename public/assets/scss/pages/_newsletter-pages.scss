@@ -1,0 +1,88 @@
+.newsletter-cover-story{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: toRem(75);
+
+	.newsletter-quotes{
+		padding: toRem(50);
+    color: var(--primary-color);
+    font-weight: 400;
+    font-style: italic;
+    font-size: toRem(28);
+	}
+
+	.cover-story-text{
+		font-size: toRem(20);
+		line-height: 1.5;
+		font-weight: 400;
+		color: var(--newsletter-text-color);
+		padding-bottom: toRem(40);
+	}
+	.btn{
+		&.btn-secondary{
+			width: 100%;
+		}
+	}
+}
+.newsletters{
+	.news-grid{
+		align-items: center;
+	}
+	.podcast-card{
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		gap: 20px;
+
+		.newsletter-top-head{
+			background: var(--secondary-color);
+			font-size: toRem(16);
+			font-weight: 600;
+			line-height: 1.4;
+			color: var(--primary-text-color);
+			padding: 8px 20px;
+			border: 1px solid var(--primary-color);
+			margin: 0;
+
+		}
+		.newsletter-date{
+			font-size: toRem(14);
+			font-weight: 400;
+			line-height: 1.4;
+			letter-spacing: 0.15px;
+			padding: 4px 24px;
+			background-color: var(--primary-text-color);
+			color: var(--white);
+			margin: 0;
+		}
+	}
+	.filter-search{
+		position: relative;
+		
+		span{
+			button{
+				position: absolute;
+				right: 24px;
+				font-size: 20px;
+				color: var(--newsletter-text-color);
+			}
+		}
+		.btn-primary{
+			padding: toRem(18);
+			position: absolute;
+			left: 0;
+		}
+		.select2-selection{
+			min-width: 502px;
+			border: 1px solid var(--primary-color);
+
+			button{
+				width: 28px;
+				height: 28px;
+				color: var(--secondary-text-color);
+			}
+
+			.select2-selection__rendered{
+				padding-left: 80px;
+			}
+		}
+	}
+}

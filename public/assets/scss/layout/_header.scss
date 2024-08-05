@@ -1,0 +1,91 @@
+header {
+    padding-bottom: toRem(7);
+    border-bottom: 2px solid var(--primary-color);
+}
+.header-top {
+    background: var(--primary-color);
+    padding: toRem(15) 0;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        color: var(--white);
+        li {
+            &:not(:last-child) {
+                margin-right: toRem(70);
+            }
+        }
+        a {
+            font-weight: 600;
+            font-size: toRem(14);
+            display: block;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.header-bottom {
+    padding: toRem(18) 0;
+    .account-links {
+        display: flex;
+        align-items: center;
+        li {
+            &:not(:last-child) {
+                margin-right: 40px;
+                position: relative;
+                &:after {
+                    content: '|';
+                    font-size: toRem(18);
+                    font-weight: 700;  
+                    position: absolute;
+                    right: toRem(-20);
+                    top: 50%;
+                    transform: translateY(-50%);  
+                }
+            }
+        }
+        a {
+            &:not(.btn) {
+                font-size: toRem(18);
+                font-weight: 700;
+            }
+        }
+
+        &.logged-in {
+            li {
+                &:not(:last-child) {
+                    margin-right: 20px;
+                    &:after {
+                        display: none;
+                    }
+                } 
+            }
+        }
+    }
+    .sponsor-logo {
+        border: 1px solid var(--gray-border);
+        padding: toRem(5) toRem(44);
+        max-width: toRem(400);
+    }
+}
+.navigation {
+    padding: toRem(14) 0;
+    box-shadow: 0 4px 28px rgba(0,0,0,.05);
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li {
+            &:not(:last-child) {
+                margin-right: toRem(48);
+            }
+            a {
+                display: block;
+                font-size: toRem(16);
+                font-weight: 600;
+                &:hover {
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+}

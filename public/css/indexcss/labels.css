@@ -1,0 +1,52 @@
+.label.label-1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 90%;
+    text-align: left;
+  }
+
+  .label.para-1 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 95%;
+    text-align: justify;
+    margin-top: 15px;
+  }
+
+  .label.label-2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 90%;
+    text-align: left;
+    color: rgba(50, 71, 92, 0.8705882353);
+  }
+
+  .label.label-4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 100%;
+    text-align: left;
+    color: rgba(50, 71, 92, 0.8705882353);
+  }
+
+  .label.label-3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 90%;
+    text-align: left;
+    color: #231F20;
+  }
+
+  .label.para-2 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 95%;
+    text-align: justify;
+    margin-top: 15px;
+  }
+
+  /*# sourceMappingURL=labels.css.map */

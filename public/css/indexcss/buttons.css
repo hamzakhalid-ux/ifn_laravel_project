@@ -1,0 +1,73 @@
+.button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  .button.fw {
+    width: 100%;
+    text-align: center;
+  }
+
+  .button.d-1 {
+    color: #800000;
+    background-color: #FDEAEA;
+    border: 1px solid #800000;
+    padding: 14px 23px;
+  }
+
+  .button.d-1:hover {
+    color: #fff;
+    background-color: #800000;
+    border: 1px solid #800000;
+  }
+
+  .button.d-2 {
+    color: #ffffff;
+    background-color: #800000;
+    padding: 8px 22px;
+  }
+
+  .button.d-3 {
+    color: #800000;
+    background-color: #FDEAEA;
+    border: 1px solid #800000;
+    padding: 14px 23px;
+    width: 65%;
+    text-align: center;
+  }
+
+  .button.d-4 {
+    color: #800000;
+    background-color: #FDEAEA;
+    border: 1px solid #800000;
+    padding: 14px 23px;
+    width: 70%;
+    text-align: center;
+  }
+
+  .button.d-3:hover {
+    color: #fff;
+    background-color: #800000;
+    border: 1px solid #800000;
+  }
+
+  .button.d-5 {
+    color: #fff;
+    background-color: #800000;
+    border: 1px solid #800000;
+    padding: 14px 23px;
+    width: 65%;
+    text-align: center;
+  }
+  .button.d-5:hover {
+    color: #800000;
+    background-color: #FDEAEA;
+    border: 1px solid #800000;
+    text-align: center;
+  }
+
+  /*# sourceMappingURL=buttons.css.map */

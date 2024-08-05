@@ -1,0 +1,412 @@
+.careercontent{
+    width:1200px;
+    margin: auto;
+    color: #424242;
+    background-color: white;
+    padding: 50px 0px;
+}
+
+.careercontent h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 80px;
+    color: var(--primary-color);
+}
+
+.careercontent p{
+  
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Public Sans', sans-serif; 
+    line-height: 40px;
+    color: var(--body-color);
+
+}
+
+/*============== Career Section 1 ==================*/
+
+.career{
+    height: 120vh;
+    width: 100%;
+    padding: 0px 0;
+    background: var(--background-color);
+    background-image: url(../images/about/company/Frame.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .pic{
+    height: 637px;
+    width:  590px;
+
+  }
+  .careerblock{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .careerblock img{
+    width: 590px;
+    height: 683px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  .text{
+    padding-left: 30px;
+    padding-right: 30px;
+   width: 1100px;
+  }
+  .text h2{
+    font-size: 34px;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 20px;
+    font-weight: 800;
+    color: var(--primary-color);
+    
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #4070f4;
+  }
+  .text p{
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--body-color);
+    padding-top: 25px;
+    text-align: justify;
+  }
+
+  .text h6{
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding-top: 20px;
+    text-align: justify;
+    font-style: italic;
+ 
+  }
+
+  .text ul li{
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--body-color);
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 30px;
+
+  }
+  .data{
+    margin-top: 30px;
+  }
+  .hire{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: 'Public Sans', sans-serif;
+    background-color: var(--primary-light);
+    color: var(--primary-color)!important;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 13px 80px!important;
+    width: 100%;
+    text-align: center;
+  }
+  .hire:hover{
+    background: var(--primary-colorr);
+    border: 1px solid var(--primary-color);
+    color: var(--background-color);
+  }
+
+/*=================== Career Section 2 =================
+----===================================================*/
+
+
+
+.career2{
+    height: 120vh;
+    width: 100%;
+    padding: 0px 0;
+    background: var(--background-color);
+    background-image: url(../images/about/company/Frame.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .pic{
+    height: 637px;
+    width:  590px;
+
+  }
+  .careerblock2{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .careerblock2 img{
+    width: 590px;
+    height: 683px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .careerblock2 .text{
+    padding-left: 30px;
+    padding-right: 30px;
+   width: 1100px;
+  }
+  .careerblock2 .text h2{
+    font-size: 34px;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 20px;
+    font-weight: 800;
+    color: var(--primary-color);
+    
+  }
+  .careerblock2 .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #4070f4;
+  }
+  .careerblock2.text p{
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--body-color);
+    padding-top: 25px;
+    text-align: justify;
+  }
+
+  .careerblock2 .text h6{
+    font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding-top: 10px;
+    text-align: justify;
+    font-style: italic;
+ 
+  }
+
+  .careerblock2 .text ul li{
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 15px;
+    font-weight: 400;
+    color: var(--body-color);
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 30px;
+
+  }
+  .careerblock2.data{
+    margin-top: 30px;
+  }
+  .careerblock2 .hire{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: 'Public Sans', sans-serif;
+    background-color: var(--primary-light);
+    color: var(--primary-color)!important;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 13px 80px!important;
+    width: 100%;
+    text-align: center;
+  }
+  .careerblock2 .hire:hover{
+    background: var(--primary-colorr);
+    border: 1px solid var(--primary-color);
+    color: var(--background-color);
+  }
+
+
+
+  /*======= Responsive css code *===========*/
+  @media (max-width: 768px) {
+    .careercontent h2 {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .careercontent p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .careercontent {
+        padding: 40px 10px;
+    }
+
+    .careercontent h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .careercontent p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 375px) {
+    .careercontent h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .careercontent p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+  /* Add this line at the beginning for mobile-first approach */
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .career {
+    height: auto; /* Adjusted for smaller screens */
+    background-size: auto; /* Adjusted for smaller screens */
+    background-position: right; /* Adjusted for smaller screens */
+  }
+
+  .pic {
+    height: auto; /* Adjusted for smaller screens */
+    width: 100%; /* Adjusted for smaller screens */
+  }
+
+  .careerblock {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+
+  .text {
+    width: 100%; /* Adjusted for smaller screens */
+    max-width: none; /* Adjusted for smaller screens */
+    padding: 15px; /* Adjusted for smaller screens */
+    box-sizing: border-box; /* Adjusted for smaller screens */
+  }
+
+  .text h2 {
+    font-size: 18px; /* Adjusted for smaller screens */
+    line-height: 26px; /* Adjusted for smaller screens */
+  }
+
+  .text h5 {
+    font-size: 20px; /* Adjusted for smaller screens */
+  }
+
+  .text p {
+    font-size: 18px; /* Adjusted for smaller screens */
+    line-height: 28px; /* Adjusted for smaller screens */
+  }
+
+  .hire {
+    font-size: 16px; /* Adjusted for smaller screens */
+    padding: 10px 40px!important; /* Adjusted for smaller screens */
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.careerblock img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+/* Add this line at the beginning for mobile-first approach */
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+     .career2 {
+      height: auto; /* Adjusted for smaller screens */
+      background-size: auto; /* Adjusted for smaller screens */
+      background-position: right; /* Adjusted for smaller screens */
+    }
+  
+    .careerblock2 .pic {
+      height: auto; /* Adjusted for smaller screens */
+      width: 100%; /* Adjusted for smaller screens */
+    }
+  
+     .careerblock2 {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;
+    }
+  
+    .careerblock2 .text {
+      width: 100%; /* Adjusted for smaller screens */
+      max-width: none; /* Adjusted for smaller screens */
+      padding: 15px; /* Adjusted for smaller screens */
+      box-sizing: border-box; /* Adjusted for smaller screens */
+    }
+  
+    .careerblock2 .text h2 {
+      font-size: 18px; /* Adjusted for smaller screens */
+      line-height: 26px; /* Adjusted for smaller screens */
+    }
+  
+    .careerblock2 .text h5 {
+      font-size: 20px; /* Adjusted for smaller screens */
+    }
+  
+    .careerblock2 .text p {
+      font-size: 18px; /* Adjusted for smaller screens */
+      line-height: 28px; /* Adjusted for smaller screens */
+    }
+  
+    .careerblock2 .hire {
+      font-size: 16px; /* Adjusted for smaller screens */
+      padding: 10px 40px!important; /* Adjusted for smaller screens */
+    }
+  
+    .careerblock2 img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+  }

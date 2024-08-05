@@ -1,0 +1,105 @@
+i{
+    cursor: pointer;
+    margin-right: 5px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    color: #000;
+}
+.select2-container .select2-selection--single, .select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 34px;
+}
+hr{
+    margin: 0px;
+    padding: 0px;
+}
+
+.delete-variation{
+    color: white;
+    border: 1px solid rgb(185, 16, 16);
+    padding: 0px 0px 0px 5px;
+    border-radius: 3px;
+}
+.delete-variation i{
+    color: rgb(185, 16, 16);
+}
+
+.custom-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-form input[type="file"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-form button[type="submit"] {
+    margin-top: 10px;
+}
+.modal {
+    overflow: auto; /* Modal ke andar ka content scrollable hoga */
+}
+
+.modal-body {
+    max-height: 400px; /* Modal body ka maximum height set karein jisse overflow scrollable ho */
+    overflow-y: auto; /* Vertical overflow ko handle karein */
+}
+
+/* Custom CSS */
+.delete-icon {
+    position: absolute;
+    top: 10px;
+    right: 15px; /* Adjust the right property to move the button to the left */
+    cursor: pointer;
+    font-size: 24px;
+    color: #d9534f; /* Bootstrap danger color */
+    opacity: 0.7; /* Set initial opacity for the button */
+    transition: opacity 0.3s; /* Add a transition effect to opacity changes */
+}
+
+.delete-icon:hover {
+    opacity: 1; /* Change opacity on hover for the hover effect */
+}
+.onoff-switch {
+    position: relative;
+    width: 50px;
+    height: 30px;
+}
+
+.onoff-switch-checkbox {
+    display: none;
+}
+
+.onoff-switch-label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.onoff-switch-checkbox:checked + .onoff-switch-label {
+    background-color: #5cb85c; /* Color when switch is ON */
+}
+
+.onoff-switch-label:after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+.onoff-switch-checkbox:checked + .onoff-switch-label:after {
+    left: 20px; /* Position when switch is ON */
+}
